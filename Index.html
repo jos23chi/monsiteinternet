@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ceci est un portfolio étudiant"> 
+    <title>Mon portfolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/style.css"> 
+</head>
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-icons">menu</span>
+                </button>
+                <a href="/" class="header-logo">
+                    <img src="img/images.png">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="Index.html">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#formation">Formation</a></li>
+                    <li><a href="#contact">Contactez-moi</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <img src="img/slider2.jpg" class="slider-background">
+        <div class="slider-content">
+            <h1>Chico Kodjo</h1>
+            <p>Etudiant en Master 1 d'informatique biomédicale</p>
+        </div>
+    </div>
+
+    <div class="section" id="apropos">
+        <div class="boxed">
+            <div class="flex tocolumn mCenter">
+                <div class="w40 wM100">
+                    <h2>À propos de moi</h2>
+                </div>
+                <div class="w60 wm100">
+                    <p>Actuellement étudiant en Master 1 d’informatique biomédicale à l’université de Paris Cité, je suis passionné par la programmation et le développement web. Au cours de ma formation, j'ai acquis des compétences solides en programmation, notamment en utilisant des langages tels que HTML, CSS et PHP. Mes projets académiques m'ont permis de mettre en pratique mes connaissances et de développer des sites web fonctionnels et esthétiques. De plus, j'ai également eu l'opportunité de travailler sur des projets collaboratifs, ce qui a renforcé ma capacité à travailler en équipe.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section dark" id="competences">
+        <div class="boxed text-center">
+            <h2>Découvrez mes compétences</h2>
+            <div class="flex toColumn gap20">
+                <div class="w25 wm100 skill">
+                    <img src="img/html-logo.png" alt="HTML Logo">
+                    <h3>HTML</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/css-logo.png" alt="CSS Logo">
+                    <h3>CSS</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/javascript-logo.png" alt="JavaScript Logo">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img src="img/mysql-logo.png" alt="MySQL Logo">
+                    <h3>MySQL</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="Portfolio">
+        <div class="boxed text-center">
+            <h2>Portfolio</h2>
+
+            <div class="flex wrap gap20 space-between">
+                <div class="w32 wm47 realisation">
+                    <a href="https://drive.google.com/drive/folders/1khxVgoK0LyPFSUrZ9ciQCIn-nedZPRdu?usp=share_link">
+                        <img src="img/ObjectOrientedProgramming-horizontal.jpg" alt="Rami Online">
+
+                        <h3>Le Rami Online</h3>
+                    </a>
+                </div>
+            <div class="w60 wm100">
+            <p> Nous avons eu à réaliser un projet de POO qui permettait de jouer à un jeu de carte communement appelé le Rami. En efet nous avons eu à implémenter les règles, les conditions, le nombre de joueur et beaucoup d'autres.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section" id="experience">
+        <div class="boxed">
+            <h2>Expérience Professionnelle</h2>
+            <ul>
+                <li>
+                    <strong>2023</strong>
+                    <span>Paradise bay hotel</span> - <em>Assistant commercial</em>
+                    <p>Gerer les réservations, se charger du service client </p>
+                </li>
+                <li>
+                    <strong>2022</strong>
+                    <span>Les Belles Années</span> - <em>Assistant Responsable de Résidence</em>
+                    <p>Gérer les demandes des locataires, gérer les locations des logments</p>
+                </li>
+                <li>
+                    <strong>2021</strong>
+                    <span>Perfect Labo</span> - <em> Assistant technicien</em>
+                    <p>assister au analyse, aider pour le tri des échantillons, faire des prélèvements</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="section" id="formation">
+        <div class="boxed text-center">
+            <h2>Formation</h2>
+            <ul>
+                <li>Master informatique biomédicale - Université Paris nord - 2024-2025</li>
+                <li>License Economie Gestion option santé - Espas-2020-2023</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section dark" id="contact">
+        <div class="boxed text-center mgap20">
+            <h2>Contactez-moi</h2>
+        <div class="flex toColumn space-between">
+            <div class="w32 wm100 contact">
+                <span class="material-icons icon"> call </span>
+                <span class="label">Numero</span>
+                <span class="value"><a href="tel:+1234567890">0745239614</a></span>
+        </div>
+            <div class="w32 wm100 contact">
+                <span class="material-icons icon">
+                    mail </span>
+                <span class="label">E-mail</span>
+                <span class="value"><a href="mailto:kodjojosias@gmail.com">kodjojosias@gmail.com</a></span>
+            </div>
+            <div class="w32 wm100 contact">
+                <span class="material-icons icon">
+                    link </span>
+                <span class="label">linkedin</span>
+                <span class="value"><a href="https://www.linkedin.com/in/chico-kodjo-65037a192/">chico kodjo</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/app.js"></script>
+</html>
